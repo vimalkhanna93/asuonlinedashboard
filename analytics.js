@@ -446,7 +446,7 @@ function drawChart()
     render_realtime_data();
     setInterval(function() {
     	render_realtime_data();
-    }, 900000000);
+    }, 9000);
 
     function render_charts() {
         $.get('https://g2ynnl6674.execute-api.us-west-2.amazonaws.com/test/dashboard-analytics', {}, function(data, status){``
@@ -459,5 +459,5 @@ function drawChart()
     render_charts();
     setInterval(function() {
         render_charts();
-    }, 3600000);
+    }, 9000);
 }
